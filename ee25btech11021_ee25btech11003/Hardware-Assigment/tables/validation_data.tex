@@ -1,0 +1,30 @@
+\documentclass[a4paper,12pt]{article}
+
+% ---------- PACKAGES ----------
+\usepackage[margin=1in]{geometry}    % Page layout
+\usepackage{booktabs}               % Better table lines
+\usepackage{caption}                % For better captions
+\usepackage{array}                  % For column formatting
+\usepackage{xcolor}                 % For colors (optional)
+\usepackage{siunitx}                % For scientific units and number alignment
+
+% ---------- DOCUMENT ----------
+\begin{document}
+\centering
+\section{Validation data}
+\begin{table}[h!]
+\centering
+\caption{Voltage vs Temperature Data}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Voltage (V)} & \textbf{Temperature (°C)} \\
+\hline
+39.2 & 0.77 \\
+51.2 & 0.80 \\
+69.7 & 0.84 \\
+89.5 & 0.88 \\
+\hline
+\end{tabular}
+\end{table}
+\end{document}
+

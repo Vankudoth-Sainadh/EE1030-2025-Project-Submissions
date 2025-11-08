@@ -1,0 +1,64 @@
+\documentclass{article}
+
+% --- Preamble: Recommended Packages ---
+\usepackage{booktabs} % For professional-looking tables (better line spacing)
+\usepackage{caption}  % For better control over captions
+\usepackage{geometry} % For general page layout (optional, but good practice)
+% --------------------------------------
+
+\begin{document}
+
+\section*{Data Tables}
+
+% --- Training Data Table ---
+\begin{table}[h!]
+    \centering
+    \caption{Training Data Values}
+    \label{tab:training_data}
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Column 1} & \textbf{Column 2} \\
+        \hline
+        0.94 & 27.6 \\
+        0.95 & 30.4 \\
+        0.96 & 34.9 \\
+        0.97 & 38.2 \\
+        0.98 & 42.5 \\
+        0.99 & 45.6 \\
+        1.01 & 49.3 \\
+        1.02 & 52.5 \\
+        1.03 & 56.8 \\
+        1.04 & 60.5 \\
+        1.05 & 64.3 \\
+        1.06 & 68.0 \\
+        1.07 & 71.1 \\
+        1.08 & 75.2 \\
+        1.09 & 78.8 \\
+        1.10 & 83.1 \\
+        1.11 & 87.3 \\
+        1.12 & 91.3 \\
+        1.13 & 95.8 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\vspace{1em} % Add some vertical space between tables
+
+% --- Validation Data Table ---
+\begin{table}[h!]
+    \centering
+    \caption{Validation Data Values}
+    \label{tab:validation_data}
+    \begin{tabular}{|c|c|}
+        \hline
+        \textbf{Column X} & \textbf{Column Y} \\
+        \hline
+        0.94 & 27.3 \\
+        1.01 & 49.3 \\
+        1.06 & 68.0 \\
+        1.11 & 87.3 \\
+        \hline
+    \end{tabular}
+\end{table}
+
+\end{document}

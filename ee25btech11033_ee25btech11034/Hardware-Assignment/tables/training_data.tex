@@ -1,0 +1,33 @@
+\documentclass[11pt, a4paper]{article}
+
+
+\usepackage[a4paper, top=2.5cm, bottom=2.5cm, left=2cm, right=2cm]{geometry}
+
+\usepackage{booktabs}
+\usepackage{caption}  
+
+\begin{document}
+
+\begin{table}[htbp]
+  \centering
+  \caption*{Measured Temperature and Corresponding Voltage}
+  \label{tab:temp_voltage}
+  \begin{tabular}{rr}
+    \toprule
+    \textbf{Measured Temperature} & \textbf{Voltage} \\
+    \midrule
+    24.9 & 0.948 \\
+    36.8 & 0.982 \\
+    50.1 & 1.018 \\
+    54.7 & 1.031 \\
+    57.5 & 1.041 \\
+    59.6 & 1.046 \\
+    69.0 & 1.070 \\
+    78.3 & 1.095 \\
+    83.7 & 1.109 \\
+    95.3 & 1.139 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\end{document}

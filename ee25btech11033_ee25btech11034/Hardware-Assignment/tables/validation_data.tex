@@ -1,0 +1,27 @@
+\documentclass[11pt, a4paper]{article}
+\usepackage[a4paper, top=2.5cm, bottom=2.5cm, left=2cm, right=2cm]{geometry}
+
+\usepackage{amsmath} 
+\usepackage{booktabs} 
+\usepackage{caption}  
+
+\begin{document}
+
+\begin{table}[htbp]
+  \centering
+  \caption*{Comparison of Measured and Model-Estimated Temperatures}
+  \label{tab:temp_comparison}
+  \begin{tabular}{ccc}
+    \toprule
+    \textbf{Temperature ($\text{T}_{\text{A}}$)} & \textbf{Voltage (V)} & \textbf{Temperature using Model ($\text{T}_{\text{M}}$)} \\
+    \midrule
+    32.5 & 0.973 & 33.520 \\
+    45.1 & 1.007 & 45.67 \\
+    63.0 & 1.056 & 63.50 \\
+    74.9 & 1.085 & 74.49 \\
+    89.3 & 1.124 & 88.42 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\end{document}

@@ -1,0 +1,156 @@
+
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal]{IEEEtran}
+\usepackage[a5paper, margin=10mm, onecolumn]{geometry}
+%\usepackage{lmodern} % Ensure lmodern is loaded for pdflatex
+\usepackage{tfrupee} % Include tfrupee package
+
+\setlength{\headheight}{1cm} % Set the height of the header box
+\setlength{\headsep}{0mm}     % Set the distance between the header box and the top of the text
+
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+%\usepackage{multiclo}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+% \usepackage{gvv} 
+\graphicspath{ {./figs/} }
+
+\begin{document}
+
+
+
+\begin{center}
+\LARGE \textbf{Tables}
+\end{center}
+
+\vspace{1cm}
+
+% -------------------- TRAINING DATA TABLE --------------------
+\section*{Training Data}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|}\hline
+\textbf{T (°C)} & \textbf{V (V)} \\\hline
+
+90.0000 & 2.6735 \\\hline
+
+86.6000 & 2.6833 \\\hline
+85.2000 & 2.6882 \\\hline
+
+82.6000 & 2.6979 \\\hline
+
+79.5000 & 2.7077 \\\hline
+
+78.1000 & 2.7126 \\\hline
+
+75.4000 & 2.7224 \\\hline
+
+73.8000 & 2.7273 \\\hline
+
+72.8000 & 2.7322 \\\hline
+
+70.1000 & 2.7419 \\\hline
+
+68.7000 & 2.7468 \\\hline
+
+65.8000 & 2.7566 \\\hline
+
+64.9000 & 2.7615 \\\hline
+
+63.3000 & 2.7664 \\\hline
+
+60.0000 & 2.7761 \\\hline
+
+57.9000 & 2.7810 \\\hline
+
+54.7000 & 2.8104 \\\hline
+
+53.2000 & 2.8202 \\\hline
+
+52.1000 & 2.8299 \\\hline
+
+47.2000 & 2.8495 \\\hline
+
+45.6000 & 2.8543 \\\hline
+
+43.9000 & 2.8592 \\\hline
+
+42.1000 & 2.8690 \\\hline
+
+40.8000 & 2.8739 \\\hline
+
+38.5000 & 2.8837 \\\hline
+
+35.8000 & 2.8939 \\\hline
+
+26.5000 & 2.9301 \\\hline
+
+39.8000 & 2.8788 \\\hline
+
+54.1000 & 2.8152 \\\hline
+
+81.1000 & 2.7028 \\\hline
+
+\end{tabular}
+\caption{Training Data: Temperature vs Voltage}
+\label{tab:training_data}
+\end{table}
+
+\vspace{1.5cm}
+
+% -------------------- VALIDATION DATA TABLE --------------------
+\section*{Validation Data}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|}\hline
+
+\textbf{T (°C)} & \textbf{V (V)} \\\hline
+
+88.6000 & 2.6784 \\\hline
+
+83.9000 & 2.6931 \\\hline
+
+76.9000 & 2.7175 \\\hline
+
+71.4000 & 2.7370 \\\hline
+
+67.3000 & 2.7517 \\\hline
+
+62.1000 & 2.7713 \\\hline
+
+56.1000 & 2.7859 \\\hline
+
+52.7000 & 2.8250 \\\hline
+
+49.2000 & 2.8397 \\\hline
+
+43.1000 & 2.8641 \\\hline
+
+37.1000 & 2.8886 \\\hline
+
+34.9000 & 2.8983 \\
+\hline
+\end{tabular}
+\caption{Validation Data: Temperature vs Voltage}
+\label{tab:validation_data}
+\end{table}
+
+\end{document}
+

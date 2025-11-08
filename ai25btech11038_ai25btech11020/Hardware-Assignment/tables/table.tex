@@ -1,0 +1,51 @@
+\documentclass{article}
+\usepackage{graphicx} 
+\usepackage{amsmath}
+\begin{document}
+
+\begin{center}
+    \Huge{Hardware Assignment}
+\end{center}
+\begin{center}
+    \Large{Tejas U, Sree Vardhan M}
+\end{center}
+
+\begin{center}
+    \Large{AI25BTECH11038, AI25BTECH11020}
+\end{center}
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|}
+\hline
+\textbf{Voltage (V)} & \textbf{Actual Temp (°C)} & \textbf{Predicted Temp (°C)} & \textbf{Error (°C)} \\ 
+\hline
+2.9432 & 93.3 & 93.33 & -0.03 \\
+2.9277 & 90.9 & 91.82 & -0.92 \\
+2.8886 & 88.0 & 86.16 & 1.84 \\
+2.8788 & 86.0 & 84.33 & 1.67 \\
+2.8739 & 84.0 & 83.35 & 0.65 \\
+2.8690 & 83.0 & 82.34 & 0.66 \\
+2.8641 & 79.0 & 81.33 & -2.33 \\
+2.8543 & 78.5 & 79.30 & -0.80 \\
+2.8495 & 77.0 & 78.29 & -1.29 \\
+2.8446 & 75.0 & 77.29 & -2.29 \\
+2.8152 & 70.0 & 71.46 & -1.46 \\
+2.8055 & 65.2 & 69.54 & -4.34 \\
+\hline
+\end{tabular}
+\caption{Comparison of Measured and Predicted Temperatures from PT100 Calibration}
+\label{tab:pt100_calibration}
+\end{table}
+
+From these values,
+
+\begin{equation}
+    \text{The Mean Absolute Error (MAE)} = \frac{\Sigma \text{Errors}}{\text{Total no. of obvservation}}
+\end{equation}
+
+\begin{equation}
+    \text{MAE} \approx 1.07 \text{°C}.
+\end{equation}
+
+\end{document}
