@@ -1,0 +1,50 @@
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[12pt,a4paper]{report}
+
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{tfrupee}
+\setlength{\headheight}{15pt}
+\setlength{\headsep}{0.5cm}
+\usepackage{gvv-book}
+\usepackage{gvv}
+\usepackage{amsmath,amssymb,amsthm,amsfonts}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{tikz}
+\usepackage{array,longtable,multirow,hhline}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{color}
+
+\renewcommand{\baselinestretch}{1.25}
+\setlength{\parskip}{6pt}
+
+\begin{document}
+
+
+{\LARGE \textbf{Table for Error Analysis:} \par}
+
+
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|c|c|c|}
+\hline
+\textbf{Image} & \textbf{k = 5} & \textbf{k = 20} & \textbf{k = 50} & \textbf{k = 100} \\
+\hline
+Einstein  & 21.629\% & 9.75\% & 4.04\% & 0.75\% \\
+\hline
+Globe     & 13.07\%  & 6.74\% & 3.99\% & 2.32\% \\
+\hline
+Grayscale & 5.25\%   & 1.97\% & 0.62\% & 0.63\% \\
+\hline
+\end{tabular}
+\caption{Reconstruction Error Percentages for Different Images at Various k Values}
+\end{table}
+
+
+
+\end{document}
